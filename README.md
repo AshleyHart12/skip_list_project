@@ -12,6 +12,18 @@ Skip List is a probabilistic data structure that provides an efficient alternati
 ## Skip List Time Complexity
 The time complexity of skip lists can be reduced by adding more layers. The time complexity of the search, the insert, and delete can become O(Logn) in an average cases with O(n) extra space
 
+## Advantages of Skip List:
+- solid and trustworthy.
+- To add a new node to it, it will be inserted extremely quickly 
+- Easy to implement compared to the hash table and binary search tree
+- The number of nodes in the skip list increases, and the possibility of the worst-case decreases
+- Finding a node in the list is relatively straightforward
+
+## Disadvantages of Skip List:
+- It needs a greater amount of memory than the balanced tree
+- Reverse search is not permitted
+- Searching is slower than a linked list
+
 ## How to run the project
 Ensure you are located in the root directory. Run the command *make*. Then, run *./slip_list_app*
 
